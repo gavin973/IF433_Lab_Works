@@ -8,6 +8,6 @@ fun main() {
     println("Gaji: ${e.salary}")
 
     e.increasePerfomance()
-//    kodenya kotor (ada komen)
+
     println("Pajak yang harus dibayar: ${e.tax}")
 }

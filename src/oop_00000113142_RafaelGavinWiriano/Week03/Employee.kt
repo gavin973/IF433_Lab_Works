@@ -10,7 +10,7 @@ class Employee(val name: String) {
                 field = value
             }
         }
-    //Tax (Pajak) dihitung 10% dari gaji saat ini
+
     val tax: Double
         get() = salary * 0.1
 
