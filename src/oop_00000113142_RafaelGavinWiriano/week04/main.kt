@@ -1,6 +1,6 @@
 package oop_00000113142_RafaelGavinWiriano.week04
 
-fun main {
+fun main() {
     println("--- Testing Vehicle ---")
     val generalVehicle = Vehicle("Sepeda Onthel")
     generalVehicle.honk()
