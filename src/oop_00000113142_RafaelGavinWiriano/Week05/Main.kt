@@ -40,5 +40,13 @@ fun main() {
     for (method in paymentMethods) {
         println("\nMemproses pembayaran 75000.0 untuk ${method.accountName}")
         method.processPayment(75000.0)
+
+        if (method is EWallet) {
+            println("Saldo kurang, melakukan top up 50000.0...")
+            method.topUp(50000.0)
+
+            println("Mencoba pembayaran lagi 75000.0...")
+            method.processPayment(75000.0)
+        }
     }
 }
