@@ -1,6 +1,6 @@
 package oop_00000113142_RafaelGavinWiriano.Week06
 
-class Clickable {
+interface Clickable {
     //ERROR: Property in an interface cannot have a backing field.
     val name: String = "Tombol Rahasia"
 
