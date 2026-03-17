@@ -37,5 +37,13 @@ class Main() {
             is ApiResponse.Error -> "Munculkan alert: ${response.message}"
             ApiResponse.Loading -> "Tampilkan Spinner"
         }
+
+        println(uiMessage)
+
+        println("\n=== TEST GAME MANAGER ===")
+        GameManager.startGame()
+        GameManager.startGame()
+
+
     }
 }
