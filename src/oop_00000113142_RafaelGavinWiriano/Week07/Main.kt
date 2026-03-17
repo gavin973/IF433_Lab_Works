@@ -40,6 +40,7 @@ class Main() {
 
         println(uiMessage)
 
+
         println("\n=== TEST GAME MANAGER ===")
         GameManager.startGame()
         GameManager.startGame()
@@ -53,12 +54,8 @@ class Main() {
 
         println("\n=== TEST EVENT SYSTEM ===")
 
-        val starterWeapon = Weapon.forgeStarterSword()
-
-// upgrade pakai copy
         val upgradedItem = starterWeapon.item.copy(damage = 25)
 
-// simulasi event
         processEvent(BattleState.SafeZone)
         processEvent(BattleState.MonsterEncounter("Goblin Nakal"))
         processEvent(BattleState.LootDropped(upgradedItem))
