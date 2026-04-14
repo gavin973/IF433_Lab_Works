@@ -66,4 +66,6 @@ fun main() {
 
     val status = LegacyJavaAPI.fetchServerStatus()!!
     println("Server status: $status")
+
+    runMockUnitTest()
 }
