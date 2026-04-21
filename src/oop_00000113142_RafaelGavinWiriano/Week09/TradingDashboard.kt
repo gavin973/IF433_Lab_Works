@@ -31,5 +31,7 @@ fun main() {
     worstPerformersString.forEach { println(it) }
     println("Unique Pairs: $uniquePairs")
 
+    worstPerformersString.forEach { println(it) }
+    println("Unique Pairs: $uniquePairs")
 
 }
