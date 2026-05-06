@@ -1,4 +1,4 @@
-package oop_00000113142_RafaelGavinWiriano.Week10.GenericBox
+package oop_00000113142_RafaelGavinWiriano.Week10
 
 fun main() {
     val coinRepo = WalletRepository<Coin>()

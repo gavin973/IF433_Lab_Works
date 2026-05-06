@@ -1,4 +1,4 @@
-package oop_00000113142_RafaelGavinWiriano.Week10.GenericBox
+package oop_00000113142_RafaelGavinWiriano.Week10
 
 class MathBox<T : Number>(val value1: T, val value2: T) {
     fun sum(): Double {
