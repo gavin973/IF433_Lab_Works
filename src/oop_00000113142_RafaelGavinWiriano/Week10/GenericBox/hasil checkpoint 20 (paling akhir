@@ -1,0 +1,6 @@
+Status: 200 OK
+Coin: BTC, Balance: 1.5
+Coin: ETH, Balance: 10.0
+Coin: USDT, Balance: 1000.0
+
+Process finished with exit code 0
