@@ -1,0 +1,5 @@
+package oop_00000113142_RafaelGavinWiriano.Week10.GenericBox
+
+fun <T> printData(data: T) {
+    println("Data yang diterima: $data")
+}
