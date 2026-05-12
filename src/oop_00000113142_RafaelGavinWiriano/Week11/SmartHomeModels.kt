@@ -1,4 +1,4 @@
-package oop_00000113142_RafaelGavinWiriano.Wekk11
+package oop_00000113142_RafaelGavinWiriano.Week11
 
 data class SmartDevice(
     var name: String,
