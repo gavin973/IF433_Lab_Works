@@ -25,3 +25,9 @@ fun dispenseKibble(
 
     return availableGram - requestedGram
 }
+
+fun main() {
+
+    var currentKibbleStock = 50
+
+}
